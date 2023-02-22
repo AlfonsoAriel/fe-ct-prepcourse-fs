@@ -22,12 +22,20 @@ function incrementarPorUno(array) {
    // El arreglo recibido por parámetro contiene números.
    // Retornar un arreglo con los elementos incrementados en +1.
    // Tu código:
+   let arregloConIncrementados =[];
+   for (let i = 0; i < array.length; i++) {
+      //const element = array[i];
+      arregloConIncrementados.push(array[i] + 1);  
+   }
+   return arregloConIncrementados;
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
    // Agrega el "elemento" al final del arreglo recibido.
    // Retorna el arreglo.
    // Tu código:
+   
+
 }
 
 function agregarItemAlComienzoDelArray(array, elemento) {
